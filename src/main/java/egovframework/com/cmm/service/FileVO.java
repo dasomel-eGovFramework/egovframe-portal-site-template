@@ -2,9 +2,10 @@ package egovframework.com.cmm.service;
 
 import java.io.Serializable;
 
+import org.apache.commons.lang3.builder.ToStringBuilder;
+
 import lombok.Getter;
 import lombok.Setter;
-import org.apache.commons.lang3.builder.ToStringBuilder;
 
 /**
  * @Class Name : FileVO.java

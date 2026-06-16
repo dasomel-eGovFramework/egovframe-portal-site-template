@@ -3,8 +3,8 @@ package egovframework.let.uss.olp.qmc.service;
 import java.io.Serializable;
 
 import org.egovframe.rte.ptl.reactive.validation.EgovNullCheck;
-import jakarta.validation.constraints.Size;
 
+import jakarta.validation.constraints.Size;
 import lombok.Getter;
 import lombok.Setter;
 

@@ -2,6 +2,8 @@ package egovframework.let.cop.bbs.service;
 
 import java.io.Serializable;
 
+import org.apache.commons.lang3.builder.ToStringBuilder;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -114,8 +116,10 @@ public class BoardVO extends Board implements Serializable {
     private String subPageIndex = "";
     ////-------------------------------
 
-    @Override
+    /**
+     * toString 메소드를 대치한다.
+     */
     public String toString() {
-        return org.apache.commons.lang3.builder.ToStringBuilder.reflectionToString(this);
+    	return ToStringBuilder.reflectionToString(this);
     }
 }

@@ -38,5 +38,4 @@ public class SessionVO implements Serializable {
 	private String orgnztId;
 	/** 고유아이디 */
 	private String uniqId;
-
 }

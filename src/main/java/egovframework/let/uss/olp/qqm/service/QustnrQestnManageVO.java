@@ -4,9 +4,9 @@ import java.io.Serializable;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.egovframe.rte.ptl.reactive.validation.EgovNullCheck;
-import jakarta.validation.constraints.Size;
-import jakarta.validation.constraints.Pattern;
 
+import jakarta.validation.constraints.Pattern;
+import jakarta.validation.constraints.Size;
 import lombok.Getter;
 import lombok.Setter;
 

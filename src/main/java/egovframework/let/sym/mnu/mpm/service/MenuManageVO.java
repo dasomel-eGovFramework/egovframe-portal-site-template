@@ -2,9 +2,9 @@ package egovframework.let.sym.mnu.mpm.service;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.egovframe.rte.ptl.reactive.validation.EgovNullCheck;
-import jakarta.validation.constraints.Size;
-import jakarta.validation.constraints.NotNull;
 
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 import lombok.Getter;
 import lombok.Setter;
 

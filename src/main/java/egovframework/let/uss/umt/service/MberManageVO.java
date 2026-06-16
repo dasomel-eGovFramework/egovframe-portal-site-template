@@ -1,9 +1,9 @@
 package egovframework.let.uss.umt.service;
 
-import org.egovframe.rte.ptl.reactive.validation.EgovNullCheck;
 import org.egovframe.rte.ptl.reactive.validation.EgovEmailCheck;
-import jakarta.validation.constraints.Size;
+import org.egovframe.rte.ptl.reactive.validation.EgovNullCheck;
 
+import jakarta.validation.constraints.Size;
 import lombok.Getter;
 import lombok.Setter;
 

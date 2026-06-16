@@ -1,9 +1,10 @@
 package egovframework.let.sec.ram.service;
 
+import org.egovframe.rte.ptl.reactive.validation.EgovNullCheck;
+
 import egovframework.com.cmm.ComDefaultVO;
 import lombok.Getter;
 import lombok.Setter;
-import org.egovframe.rte.ptl.reactive.validation.EgovNullCheck;
 
 /**
  * 권한관리에 대한 model 클래스를 정의한다.
