@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"CP=$(cat /tmp/test-cp.txt)\\nSTANDALONE=/Users/m/.m2/repository/org/junit/platform/junit-platform-console-standalone/1.12.1/junit-platform-console-standalone-1.12.1.jar\\n\\njava -jar $STANDA...",
+  "error": "Exit code 1\nWARNING: Final field allParameters in class org.junit.platform.console.options.MainCommand has been mutated reflectively by class org.junit.platform.console.shadow.picocli.CommandLine$Model$FieldBinding in unnamed module @6956de9 (file:/Users/m/.m2/repository/org/junit/platform/junit-platform-console-standalone/1.12.1/junit-platform-console-standalone-1.12.1.jar)\nWARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning\nWARNING: Mutating final fields will be blocked i...",
+  "timestamp": "2026-05-28T14:27:29.360Z",
+  "retry_count": 2
+}
